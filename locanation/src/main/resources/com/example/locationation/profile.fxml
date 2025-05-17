@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="847.0" prefWidth="1312.0" BorderPane.alignment="CENTER">
+         <left>
+            <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="831.0" prefWidth="623.0" BorderPane.alignment="CENTER">
+               <center>
+                  <ImageView fitHeight="978.0" fitWidth="625.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../../../images/Background.png" />
+                     </image>
+                     <BorderPane.margin>
+                        <Insets top="6.0" />
+                     </BorderPane.margin>
+                  </ImageView>
+               </center>
+            </BorderPane>
+         </left>
+         <center>
+            <BorderPane prefHeight="1080.0" prefWidth="623.0" BorderPane.alignment="CENTER">
+               <top>
+                  <ImageView fitHeight="502.0" fitWidth="735.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../../../images/ddd%20copy.png" />
+                     </image>
+                  </ImageView>
+               </top>
+               <bottom>
+                  <ImageView fitHeight="514.0" fitWidth="643.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../../../images/ddd%20copy%202.png" />
+                     </image>
+                     <BorderPane.margin>
+                        <Insets bottom="1.0" />
+                     </BorderPane.margin>
+                  </ImageView>
+               </bottom>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </center>
+   <left>
+      <BorderPane prefHeight="1080.0" prefWidth="304.0" BorderPane.alignment="CENTER_LEFT" />
+   </left>
+   <right>
+      <BorderPane prefHeight="200.0" prefWidth="304.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
